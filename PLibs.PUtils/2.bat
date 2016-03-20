@@ -1,0 +1,1 @@
+nuget pack PLibs.PUtils.csproj -Prop Configuration=Release

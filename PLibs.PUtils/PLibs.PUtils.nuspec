@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>http://p2planet.sinaapp.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Add HttpUtils.PutJson, application/json;charset=utf-8 Put data, encoding UTF8.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>PLibs PUtils P2Planet DotNet Utils</tags>
+  </metadata>
+</package>
