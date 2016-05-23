@@ -410,10 +410,14 @@ namespace PLibs.PUtils
         }
         #endregion
 
-        #region PostJson 以 application/json;charset=utf-8 方式Post数据
+        #region PostJson 以Post方式提交 application/json;charset=utf-8 格式的数据
         public string PostJson(string url, Dictionary<string, object> jsonCollection)
         {
             var json = JsonConvert.SerializeObject(jsonCollection);
+            return PostJson(url, json);
+        }
+        public string PostJson(string url, string json)
+        {
             var byteRequest = Encoding.UTF8.GetBytes(json);
 
             HttpWebRequest httpWebRequest = null;
